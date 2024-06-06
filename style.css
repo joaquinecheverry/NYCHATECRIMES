@@ -216,9 +216,9 @@ body {
     100% {color: red;}
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 844px) {
     #filters {
-        font-size: 12pt;
+        font-size: 14pt;
         top: 800px;
         position: absolute;
         left: 20px;
@@ -226,18 +226,61 @@ body {
     }
     #title {
         left: 19px;
+        top: -70px  ;
+        font-size: 61.3pt;
+        width: 900px;
+    }
+    #dosveinte {
+        font-size: 204.2pt;
+        top: 270px;
     }
     #hatecrimes {
-        left: 18.5px;
+        left: 19px;
         max-height: 300px;
+        top: 295px;
+        width: 320px;
     }
     #hateCrimesCount {
-        top: -230px;
-        font-size: 175pt;
+        top: -210px;
+        font-size: 155pt;
         position: absolute;
-        left: -10px;
+        left: -30px;
     }
     #resetButton {
         top: 2000px;
+    }
+    #description {
+        visibility: hidden;
+    }
+    #bias {
+        left: 0px;
+        top: 300px;
+    }
+    #category {
+        width: 260px;
+    }
+    #area {
+        left: 1px;
+        top: 970px;
+    }
+    #month {
+        left: 1px;
+        top: 1210px;
+    }
+    #line1 {
+        visibility: hidden;
+    }
+    #line2 {
+        visibility: hidden;
+    }
+    #line3 {
+        visibility: hidden;
+    }
+    #line4 {
+        visibility: hidden;
+    }
+    #resetButton {
+        top: 568px;
+        left: 162px;
     }
 }
